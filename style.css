@@ -1,4 +1,59 @@
-.container{
+.container {
     display: grid;
-    grid-template-columns: 5;
+    grid-template-columns: 1fr 5fr;
+
+}
+
+sidebar {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: cyan;
+}
+
+sidebar img {
+    width: 30px;
+}
+
+#name {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    background-color: aquamarine;
+}
+
+.projects {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project {
+    height: 100px;
+}
+
+header {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+
+header img {
+    width: 20px;
+}
+
+
+
+.project_news {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
