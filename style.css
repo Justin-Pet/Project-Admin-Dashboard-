@@ -44,6 +44,13 @@ sidebar div {
 .project {
     background-color: #f0f9ff;
     border-radius: 10px;
+    border-left-style: solid;
+    border-left-width: 1vh;
+    border-color: #e9e25a;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 header {
@@ -84,4 +91,8 @@ ul {
 .project_news {
     display: grid;
     grid-template-columns: 2fr 1fr;
+}
+
+.project div img {
+    width: 2vh;
 }
