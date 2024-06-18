@@ -12,6 +12,7 @@ sidebar {
     color: white;
     align-items: start;
     font-weight: bold;
+    font-size: 1.7vh;
 }
 
 sidebar img {
@@ -95,4 +96,5 @@ ul {
 
 .project div img {
     width: 2vh;
+    margin-right: 1vh;
 }
