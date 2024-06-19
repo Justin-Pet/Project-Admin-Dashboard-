@@ -98,3 +98,18 @@ ul {
     width: 2vh;
     margin-right: 1vh;
 }
+
+.announcements {
+    display: grid;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    gap: 0;
+}
+
+.announcement {
+    background-color: #f0f9ff;
+    border-radius: 10px;
+
+    border-bottom-style: solid;
+
+}
